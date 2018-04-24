@@ -1,0 +1,64 @@
+@import 'application';
+
+// Increase Emojis size
+
+.reply-indicator__content .emojione, .status__content {
+	padding-top: 3px;
+	.emojione {
+		width: 25px;
+		height: 30px;
+		margin: -5px 0 0;
+	}
+}
+
+.detailed-status .status__content .emojione {
+	width: 30px;
+	height: 35px;
+	margin: -5px 0 0;
+}
+
+// Not found
+
+.regeneration-indicator.missing-indicator .regeneration-indicator__figure {
+  background-image: url('../images/niu_confuse_akko.png');
+}
+
+// Onboard Chariot
+
+//.onboarding-modal__page-one__elephant-friend {
+//  background: url('../images/niu_onboard_chariot.png') no-repeat center center / contain;
+//}
+
+.landing-page__mascot {
+    height: 185px;
+    position: relative;
+    left: 30px;
+    bottom: 0px;
+    background: url('../images/niu_onboard_chariot.png') no-repeat left bottom / contain;
+	margin: -40px;
+}
+.landing-page__mascot > img {
+  display:none
+}
+
+// Sleepy Akko
+
+.drawer__inner__mastodon {
+  background: url('../images/niu_sleepy_akko.png') no-repeat left bottom / contain;
+}
+
+.drawer__inner__mastodon > img {
+  display:none
+}
+
+//.drawer__inner {
+//  > .mastodon {
+//    background: url('../images/niu_sleepy_akko.png') no-repeat left bottom / contain;
+//  }
+//}
+//
+//.modal-layout__mastodon {
+//  > * {
+//    background: url('../images/niu_sleepy_akko.png') no-repeat left bottom / contain;
+//  }
+//}
